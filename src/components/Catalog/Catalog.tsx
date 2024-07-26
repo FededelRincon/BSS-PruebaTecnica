@@ -1,7 +1,11 @@
-// import React from 'react'
+import { Products } from "../Products/Products"
 
 export const Catalog = () => {
   return (
-    <div>Catalog</div>
+    <>
+      <div>Catalog</div>
+        muchos productos
+      <Products />
+    </>
   )
 }

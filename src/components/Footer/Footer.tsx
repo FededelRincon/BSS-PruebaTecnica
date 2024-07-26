@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -7,11 +8,13 @@ export const Footer = () => {
 
           {/* Logo a la izquierda */}
           <div className="mb-4 md:mb-0">
-            <img 
-              className='w-24 md:w-32'
-              src="../../../../public/logo.jpg"
-              alt="Logo" 
-            />
+            <Link to="/">
+              <img 
+                className='w-24 md:w-32'
+                src="../../../../public/logo.jpg"
+                alt="Logo" 
+              />
+            </Link>
           </div>
           
           {/* Derechos reservados en el centro */}
