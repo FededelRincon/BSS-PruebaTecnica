@@ -1,7 +1,15 @@
 // import React from 'react'
 
-export const Products = () => {
+interface ProductsProps {
+  picture: string;
+  title: string;
+}
+
+export const Products: React.FC<ProductsProps> = ({ picture, title }) => {
   return (
-    <div>Products</div>
+    <>
+      <div>{title}</div>
+      <img src={picture} alt={title} />
+    </>
   )
 }
