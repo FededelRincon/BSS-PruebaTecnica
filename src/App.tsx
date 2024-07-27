@@ -5,7 +5,7 @@ import { Welcome } from './components/Welcome/Welcome'
 import { Catalog } from './components/Catalog/Catalog'
 import { Contact } from './components/Contact/Contact'
 import { Error404 } from './components/Error404/Error404'
-import { ScrollToTop } from './components/ScrollToTop/ScrollToTop'
+import { ScrollToTop } from './helpers/ScrollToTop/ScrollToTop'
 
 function App() {
 

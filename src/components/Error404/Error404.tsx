@@ -7,9 +7,9 @@ export const Error404 = () => {
     <section className="bg-white dark:bg-gray-800">
       <div className="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div>
-          <p className="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+          <p className="text-md font-medium text-blue-500 dark:text-blue-400">error 404</p>
           <h1 className="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
-            We can’t find that page
+            No podemos encontrar la pagina solicitada
           </h1>
           <p className="mt-4 text-gray-500 dark:text-gray-400">
             Lo sentimos, la pagina que deseas visitar no existe o ha sido removida.
@@ -35,7 +35,7 @@ export const Error404 = () => {
 
             <Link to="/" className="w-1/2 sm:w-auto">
               <button className="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
-                home
+                Home
               </button>
             </Link>
           </div>
