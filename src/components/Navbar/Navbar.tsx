@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="relative bg-white shadow dark:bg-gray-800">
       <div className="container px-7 py-0 mx-auto md:flex md:justify-between md:items-center">
@@ -44,13 +48,13 @@ export const Navbar = () => {
           } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:hidden`}
         >
           <div className="flex flex-col md:flex-row md:mx-6">
-            <Link to="/" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+            <Link to="/" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0" onClick={handleLinkClick}>
               Bienvenida
             </Link>
-            <Link to="/catalogo" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+            <Link to="/catalogo" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0" onClick={handleLinkClick}>
               Catálogo
             </Link>
-            <Link to="/contacto" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+            <Link to="/contacto" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0" onClick={handleLinkClick}>
               Contacto
             </Link>
           </div>
