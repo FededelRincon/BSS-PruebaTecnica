@@ -1,11 +1,13 @@
-import { Navbar } from './components/Navbar/Navbar'
-import { Footer } from './components/Footer/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Welcome } from './components/Welcome/Welcome'
-import { Catalog } from './components/Catalog/Catalog'
-import { Contact } from './components/Contact/Contact'
-import { Error404 } from './components/Error404/Error404'
+
+import { Navbar } from './components/Navbar/Navbar'
 import { ScrollToTop } from './helpers/ScrollToTop/ScrollToTop'
+import { Welcome } from './pages/Welcome/Welcome'
+import { Catalog } from './pages/Catalog/Catalog'
+import { Contact } from './pages/Contact/Contact'
+import { Footer } from './components/Footer/Footer'
+import { Error404 } from './pages/Error404/Error404'
+
 
 function App() {
 
