@@ -47,10 +47,10 @@ export const Navbar = () => {
             <Link to="/" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
               Bienvenida
             </Link>
-            <Link to="/catalog" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+            <Link to="/catalogo" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
               Catálogo
             </Link>
-            <Link to="/contact" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+            <Link to="/contacto" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
               Contacto
             </Link>
           </div>
@@ -61,10 +61,10 @@ export const Navbar = () => {
           <Link to="/" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
             Bienvenida
           </Link>
-          <Link to="/catalog" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+          <Link to="/catalogo" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
             Catálogo
           </Link>
-          <Link to="/contact" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
+          <Link to="/contacto" className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-orange-400 dark:hover:text-orange-300 md:mx-4 md:my-0">
             Contacto
           </Link>
         </div>
